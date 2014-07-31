@@ -154,7 +154,6 @@
     NSString *html = [NSString stringWithFormat:youTubeVideoHTML, self.playerView.frame.size.width, self.playerView.frame.size.height, videoId];
     UIWebView *webView = [[UIWebView alloc] initWithFrame:self.playerView.frame];
     [webView setMediaPlaybackRequiresUserAction:NO];
-    //[webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"YT_Player" ofType:@"html"] isDirectory:NO]]];
     [webView loadHTMLString:html baseURL:[[NSBundle mainBundle] resourceURL]];
     [self.view addSubview:webView];
 }

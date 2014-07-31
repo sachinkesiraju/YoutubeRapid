@@ -21,7 +21,6 @@
 		0305AC7D1987E2F100EA5D04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0305AC7B1987E2F100EA5D04 /* InfoPlist.strings */; };
 		0305AC7F1987E2F100EA5D04 /* YoutubeRapidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0305AC7E1987E2F100EA5D04 /* YoutubeRapidTests.m */; };
 		0305AC8D1987E31D00EA5D04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0305AC8C1987E31D00EA5D04 /* ViewController.m */; };
-		0305AC8F1987EA9D00EA5D04 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0305AC8E1987EA9D00EA5D04 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +53,6 @@
 		0305AC7E1987E2F100EA5D04 /* YoutubeRapidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoutubeRapidTests.m; sourceTree = "<group>"; };
 		0305AC8B1987E31D00EA5D04 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0305AC8C1987E31D00EA5D04 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0305AC8E1987EA9D00EA5D04 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +60,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0305AC8F1987EA9D00EA5D04 /* MediaPlayer.framework in Frameworks */,
 				0305AC561987E2F100EA5D04 /* CoreGraphics.framework in Frameworks */,
 				0305AC581987E2F100EA5D04 /* UIKit.framework in Frameworks */,
 				0305AC541987E2F100EA5D04 /* Foundation.framework in Frameworks */,
@@ -104,7 +101,6 @@
 		0305AC521987E2F100EA5D04 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0305AC8E1987EA9D00EA5D04 /* MediaPlayer.framework */,
 				0305AC531987E2F100EA5D04 /* Foundation.framework */,
 				0305AC551987E2F100EA5D04 /* CoreGraphics.framework */,
 				0305AC571987E2F100EA5D04 /* UIKit.framework */,
