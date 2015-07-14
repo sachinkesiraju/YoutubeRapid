@@ -109,7 +109,7 @@
 - (void) searchYouTube: (NSString *) keyword
 {
     NSLog(@"Searching YouTube");
-    NSString *urlString = [NSString stringWithFormat:@"https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&q=%@&order=viewCount&alt=json&key=AIzaSyBxFpgIBpsUI04ic-luzHZzlqoFbVEX9Ws", keyword];
+    NSString *urlString = [NSString stringWithFormat:@"https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&q=%@&order=viewCount&alt=json&key=['YOUR_API_KEY]", keyword];
     
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:urlString]];
     [request setHTTPMethod:@"GET"];
